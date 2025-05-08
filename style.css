@@ -1,0 +1,248 @@
+*{
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 200;
+}
+
+.nav-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 120px;
+    background-color:#f7f6f4;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.nav-top1 ul li{
+    display: inline;
+    justify-content: center;
+    list-style: none;
+    padding-right: 15px;
+}
+
+.nigeria-btn{
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    border: 1px solid black;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ece8d9;
+    padding: 0px 120px;
+    margin-left: 200px;
+    margin-right: 200px ;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.hope{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-left: 20px; */
+    margin-left: 30px;
+}
+.nav1 ul{
+    display: inline-block;
+    padding-left: 50px;
+}
+.nav1 ul li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 25px;
+    /* margin-right: 50px; */
+}
+.nav2{
+    /* padding-left: 50px; */
+}
+.nav2 ul li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 15px;
+}
+
+.layer1{
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: #ece8d9;
+    position: relative;
+    /* padding: 0px 120px; */
+}
+.layer1-1 h1{
+    padding-top: 70px;
+    font-size: 60px;
+    padding-left: 100px;
+    font-family: "DM Serif Text", serif;
+    color: #384a62;
+}
+.layer1-1 p{
+    padding-top: 30px;
+    padding-left: 100px;
+    font-size: 24px;
+    color: #708095 ;
+}
+.layer1-2{
+    padding-top: 30px;
+    padding-left: 100px;
+    font-weight: 500;
+    font-size: 12px;
+    color: #384a85;
+}
+.layer1-3{
+    padding-left: 100px;
+    padding-top: 5px;
+    padding-bottom: 100px;
+}
+.img{
+    position: absolute;
+    bottom: 0px;
+    left: 1130px;
+}  
+
+.layer2{
+    display:flex;
+    justify-content: space-between;
+    padding: 70px 300px 5px;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    /* margin: 12px; */
+    padding: 0px 20px 20px 280px;
+}
+
+.card1{
+    width: 320px;
+    height: 400px;
+    /* background-color: red; */
+    margin: 15px;
+    box-shadow: 1px 1px 5px gray;
+}
+.card1:hover{
+    cursor: pointer;
+}
+.layer3{
+    margin: 40px 190px;
+}
+
+.layer4{
+    margin: 10px 200px;
+    background-color: #edf6fd ;
+}
+.layer4-1{
+    display: flex;
+    padding: 0px 80px;
+}
+
+.card2{
+    width: 600px;
+    height: 200px;
+    background-color:rgb(252, 251, 251);
+    margin: 10px 10px 50px 10px;
+    padding: 10px 0px;
+    display: inline-block;
+    justify-content: left;
+    align-content: center;
+}
+
+.layer5{
+    margin: 40px 190px;
+    padding: 50px 100px 0px;
+    justify-content: space-between;
+    /* padding-left: 60px; */
+}
+.layer5-1{
+    /* background-color: orange; */
+    width: 30%;
+    height: 150px;
+    display: inline-flex;
+    align-items: center;
+    justify-content:center;
+    /* justify-items: center; */
+    margin-right: 30px;
+}
+
+.layer5-2{
+    /* background-color: orange; */
+    width: 30%;
+    height: 150px;
+    display: inline-flex;
+    align-items: center;
+    justify-content:center;
+    /* padding-top: -30px; */
+    margin-right: 30px;
+}
+
+.layer6{
+    margin: 40px 190px 0px;
+    padding: 70px 100px 90px;
+    background-color:#f7f6f4;
+}
+
+.parentegg{
+    display:flex;
+    justify-content: space-between;
+}
+
+.egg{
+    padding-top: 20px;
+}
+
+.egg p a{
+    /* text-decoration: #384a62 ; */
+    font-size: 16px;
+    color: #384a62;
+    font-weight: 800;
+}
+.layer7{
+    margin: 0px 190px;
+    padding: 70px 100px 90px;
+    background-color: #384a62;
+    display: flex;
+    justify-content: space-between;
+}
+.layer7-1 h2{
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    padding-bottom: 15px;
+}
+.layer7-1 li{
+    list-style: none;
+    font-weight: 600;
+    color: white;
+    padding-top: 15px;
+}
+.layer7-1 li a{
+    text-decoration: none;
+    font-weight: 600;
+    /* list-style: none; */
+    color: white;
+}
+
+footer{
+    background-color: #cbcac8;
+    margin: 0px 190px;
+}
+
+footer p{
+    text-align: center;
+    padding: 40px;
+    color: #384a62;
+    font-weight: 400;
+}
